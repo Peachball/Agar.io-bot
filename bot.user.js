@@ -208,9 +208,11 @@ console.log("Running Apos Bot!");
     }
 
     function isSplitTarget(blob, cell) {
-        /*if (canSplit(cell, blob)) {
+        //Originally this section was commented out
+        if (canSplit(cell, blob)) {
             return true;
-        }*/
+        }
+        //End Section
         return false;
     }
 
